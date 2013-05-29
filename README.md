@@ -9,12 +9,12 @@ Licensed under the MIT license:
 
 You need python2 (2.7 recommended) and python packages below:
 
-* request
+* requests
 * lxml
 
 ## Usage
 
-1. Change `USERNAME` and `PASSWORD` with your google account's information;
+1. Change `USERNAME` and `PASSWORD` in `grarchive.py` with your google account's information;
 2. Export your Google Reader subscriptions: <https://www.google.com/takeout/#custom:reader>, extract `subscriptions.xml` to this repo;
 3. Run `grarchive.py` and wait (or pray).
 
